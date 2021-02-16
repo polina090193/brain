@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Тестовое задание Директ</title>
+</head>
+<body>
+    <div class="body-wrapper">
+        <header class="header">
+            <nav class="header-logo">
+                <a href="#" class="header-logo-link">
+                    <img src="images/company-logo.png">
+                    <p class="header-logo-name">Ваше лого</p>
+                </a>
+            </nav>
+            <nav class="header-social">
+                <button class="header-social-button">
+                    <img src="images/vk-logo.png">
+                </button>
+                <button class="header-social-button">
+                    <img src="images/inst-logo.png">
+                </button>
+                <button class="header-social-button">
+                    <img src="images/fb-logo.png">
+                </button>
+            </nav>
+        </header>
+        <div class="hidden-header"></div>
+        
+        
+        <div class="banner-wrapper">
+            <figure class="banner">
+                <img src="images/banner-background.png">
+                <h1 class="banner-header">
+                    Новогодние<br>Скидки!
+                </h1>
+                <figure class="banner-arrow">
+                    <img class="banner-arrow-image" src="images/banner-arrow.png">
+                    <h2 class="banner-arrow-text">
+                        Лови момент!
+                    </h2>
+                </figure>
+            </figure>
+        </div>
+        <main class="main">
+            <section class="action">
+                <h2 class="action-header">
+                    Акция продлится до <span class="action-date">14</span> января!
+                </h2>
+            </section>
+            <section class="products-wrapper">
+                <article class="product">
+                    <figure class="discount-flag">
+                        <img class="discount-flag-image" src="./images/discount-background.png">
+                        <figcaption class="discount-flag-text">-70%</figcaption>
+                    </figure>
+                    <aside class="product-head">
+                        <img src="images/product-photo.png">
+                        <div class="product-prices-wrapper">
+                            <div class="product-prices">
+                                <p class="product-old-price">8300 </p>
+                                <p class="product-new-price">2490 </p>
+                            </div>
+                            <div class="product-buttons">
+                                <button class="product-button-order">Заказать</button>
+                                <button class="product-button-details">Подробнее</button>
+                                <p class="product-button-info-popup">Важная информация</p>
+                            </div>
+                        </div>
+                    </aside>
+                    <aside class="product-description">
+                        <p class="product-description-title">
+                            Секреты продуктивной работы
+                        </p>
+                        <p class="product-description-subtitle">
+                            За компьютером
+                        </p>
+                        <p class="product-description-text">
+                            К сожалению, когда человек покупает компьютер 
+                            или ноутбук, то с ним нет никакого обучающего 
+                            пособия о том, как использовать покупку 
+                            максимально эффективно. В итоге большинство 
+                            пользователей используют свой компьютер 
+                            на самом примитивном уровне.
+                        </p>
+                        <aside class="product-popup">
+                            <div class="product-popup-button-wrapper">
+                                <button class="product-popup-button">
+                                    <img src="images/close-popup-button.png">
+                                </button>
+                            </div>
+                            <p class="product-popup-text">
+                                Покупая данный продукт, учтите следующие его 
+                                особенности:
+                            <p class="product-popup-text">
+                                1. Курс может поставляться на флеш-накопителе, 
+                                в цифровом варианте или же как просмотр в 
+                                онлайн-режиме. Курс без проблем запустится 
+                                как на Windows, так и на OS X (Mac OS).</p>
+                            <p class="product-popup-text">
+                                2. Вы защищены 100% гарантией возврата денег 
+                                на тот случай, если что-то пойдет не так. 
+                                Гарантия действует 90 дней.</p>
+                        </aside>
+                    </aside>
+                    <aside class="product-footer">
+                        <p class="product-footer-title">
+                            Порекомендуй другу и получи дополнительную скидку!
+                        </p>
+                        <div class="product-footer-buttons">
+                            <div class="product-footer-share product-footer-share-vk"></div>
+                            <div class="product-footer-share product-footer-share-inst"></div>
+                            <div class="product-footer-share product-footer-share-fb"></div>
+                            <div class="product-footer-share product-footer-share-ok"></div>
+                            <div class="product-footer-share product-footer-share-yt"></div>
+                            <div class="product-footer-share product-footer-share-in"></div>
+                            <div class="product-footer-share product-footer-share-pen"></div>
+                            <div class="product-footer-share product-footer-share-mk"></div>
+                            <div class="product-footer-share product-footer-share-ya"></div>
+                            <div class="product-footer-share product-footer-share-gp"></div>
+                        </div>
+                    </aside>
+                    
+                </article>
+                
+            </section>
+            <div class="arrows-wrapper">
+                <img src="images/subscribe-arrow.png" class="subscribe-arrow-left">
+
+                <form class="subscribe-form">
+                    <input type="text" class="subscribe-input-name" placeholder="Ваше имя" required>
+                    <input type="email" class="subscribe-input-email" placeholder="Ваш e-mail" required>
+                    <input type="submit" class="subscribe-input-submit" value="Хочу получать новости о скидках">
+                </form>
+                <img src="images/subscribe-arrow.png" class="subscribe-arrow-right">
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p class="footer-text">
+                <a href="#">Политика конфиденциальности</a>
+                 | <a href="#">Публичная оферта</a>
+            </p>
+            <p class="footer-text">
+                Публичная программа: <a href="#">Регистрация</a>
+                | <a href="#">Вход</a>
+            </p>
+            <p class="footer-text">
+                Клиентский кабинет: <a href="#">Вход</a>
+            </p>
+        </footer>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
